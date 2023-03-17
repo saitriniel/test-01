@@ -1,0 +1,28 @@
+{
+  "name": "test-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saitriniel/test-01.git"
+  },
+  "author": "valeriya antonova <saitriniel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saitriniel/test-01/issues"
+  },
+  "homepage": "https://github.com/saitriniel/test-01#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
